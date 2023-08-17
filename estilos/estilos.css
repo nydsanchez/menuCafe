@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*COPIADO DEL EJERCICIO DE FREECODECAMP*/
+}
+
+main p{
+    font-size: 18px;
+}
+
+#container{
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background: #deb887;
+    max-width: 500px; /*COPIADO DEL EJERCICIO DE FREECODECAMP*/
+}
+
+header{
+    text-align: center;
+}
+
+hr{
+   border-color:rgb(160, 7, 7);
+   background-color: rgb(160, 7, 7);
+   width: 720px;
+    margin: auto;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   height: 5px;
+}
+
+.titulo-menu{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*COPIADO DEL EJERCICIO DE FREECODECAMP*/
+}
+
+.menu-coffee{
+display: flex;
+justify-content: space-between;
+}
+
+.menu-coffee p{
+    padding-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a{
+    color: black;
+}
+
+address{
+    padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #container{
+        height: 100%;
+    }
+    hr{
+        width: 100%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+#container{
+    height: 100%;
+}
+hr{
+    width: 100%;
+}
+}
